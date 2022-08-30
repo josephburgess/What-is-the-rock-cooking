@@ -1,6 +1,6 @@
 html { 
     font-family: Arial, Helvetica, sans-serif;
-    background: url("/img/20534505.jpg"), no-repeat center center fixed; 
+    background: url("img/20534505.jpg"), no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
