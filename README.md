@@ -1,4 +1,4 @@
-# What-is-the-rock-cooking
+# Do you smell what The Rock is cooking? 🍳
 
 A small project I put together as part of the "Mixed Messages" assignment on Codecademy.
 
