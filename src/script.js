@@ -1,5 +1,5 @@
-const rockMessages = [
-    "What's the key to success? The key is, there is no key. Be humble, hungry, and the hardest worker in any room.", 
+const rockQuotes = [
+    "What's the key to success? The key is, there is no key. Be humble, hungry, and the hardest worker in any room.",
     "With drive and a bit of talent you can move mountains",
     "If something stands between you and your success, MOVE IT! Never be denied",
     "The wall! Your success is on the other side. Can’t jump over it or go around it. You know what to do.",
@@ -80,7 +80,7 @@ const rockMessages = [
 ];
 
 const newQuote = () => {
-	var randomNumber = Math.floor(Math.random() * (rockMessages.length));
-    document.getElementById('qouteDisplay').innerHTML = rockMessages[randomNumber];
+    var randomNumber = Math.floor(Math.random() * (rockQuotes.length));
+    document.getElementById('qouteDisplay').innerHTML = rockQuotes[randomNumber];
 }
-window.onload = newQuote()
+newQuote()

@@ -1,42 +1,41 @@
-html { 
-    font-family: Arial, Helvetica, sans-serif;
-    background: url("img/20534505.jpg"), no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("img/20534505.jpg"), no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
+  padding: 50px;
+  width: 600px;
+  margin: auto auto auto auto;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: helvetica;
+  color: black;
+}
 
-    padding: 50px;
-    border-radius: 5px;
-    height: 820px;
-    width: 600px;
-    margin: auto auto auto auto;
-    display: block;
-    font-weight: bold;
-    font-size: 17px;
-    font-family: helvetica; 
-    color: black;
-  
-  }
+div {
+  text-align: center;
+}
 
 button {
-    width: 599px;
-    padding: 20px;
-    border: 2px solid;
-    font-family: helvetica;
-    Background: transparent;
-    border-radius: 107px;
-    
-  }
+  width: 600px;
+  padding: 20px;
+  border: 2px solid;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 107px;
+}
 
 h1 {
-    text-align: center;
-    font-size: 100px;
+  text-align: center;
+  font-size: 100px;
 }
 
 #quoteDisplay {
-    padding: 10px;
-  }
+  padding: 10px;
+}
